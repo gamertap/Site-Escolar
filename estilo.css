@@ -1,25 +1,29 @@
+.fundo {
+    background: brown;
+    padding-top: 1%;
+    padding-bottom: 7%;
+}
+
 .logo {
     position: absolute;
     padding: 10px;
-}
-
-header {
-    background-color: brown;
+    margin-left: 12.5%;
 }
 
 .inicio {
-    padding-bottom: 236px;
-    margin-left: 70%;
-    font-size: 20px;
+    margin-top: 110px;
+    margin-left: 55%;
 }
 
 header li {
     font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
     display: inline;
-    padding-left: 5%;
 }
 
 .text {
+    padding-right: 5%;
     text-decoration: none;
     color: inherit;
     font-weight: bolder;
