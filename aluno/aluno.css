@@ -33,10 +33,3 @@ header li {
     color: yellow;
 }
 
-.centralizar {
-    text-align: center;
-}
-
-.imgmain {
-    transform: scale(2.5, 1);
-}

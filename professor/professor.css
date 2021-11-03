@@ -32,11 +32,3 @@ header li {
 .text:hover {
     color: yellow;
 }
-
-.centralizar {
-    text-align: center;
-}
-
-.imgmain {
-    transform: scale(2.5, 1);
-}
