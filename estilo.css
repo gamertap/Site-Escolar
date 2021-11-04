@@ -5,8 +5,10 @@ body {
     width: 100vw;
 }
 
+/* HEADER */
+
 .fundo {
-    background: brown;
+    background: rgb(100, 182, 237);
     padding-top: 0.5%;
     padding-bottom: 7.5%;
 }
@@ -40,9 +42,7 @@ header li {
     color: yellow;
 }
 
-.centralizar {
-    text-align: center;
-}
+/* MAIN */
 
 .imgmain {
     position: absolute;
@@ -137,4 +137,15 @@ input {
 
 #slide3:checked ~ .s1 {
     margin-left: -40%;
+}
+
+.titulo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 600px;
+    color: rgb(100, 182, 237);
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 'Work Sans', sans-serif;
 }
