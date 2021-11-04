@@ -1,3 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
 .fundo {
     background: brown;
     padding-top: 0.5%;
@@ -38,12 +45,16 @@ header li {
 }
 
 .imgmain {
-    transform: scale(2.5, 1);
+    position: absolute;
+    margin-left: 28.5%;
+    margin-top: 1%;
+    transform: scale(1.3, 1);
 }
 
 .esquerda {
     position: absolute;
     margin-left: 20%;
+    margin-top: 10%;
     font-size: 40px;
     border: black;
     border-style: solid;
@@ -53,10 +64,10 @@ header li {
     font-weight: bold;
 }
 
-
 .direita{
     position: absolute;
-    margin-left: 75%;
+    margin-left: 75.5%;
+    margin-top: 10%;
     font-size: 40px;
     border: black;
     border-style: solid;
@@ -64,4 +75,66 @@ header li {
     padding-left: 3px;
     padding-right: 3px;
     font-weight: bold;
+}
+
+.content {
+    position: absolute;
+    overflow: hidden;
+    border-radius: 3px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+
+.naveg {
+    position: absolute;
+    bottom: 260px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 70px;
+    height: 17px;
+    border: 2px white solid;
+    border-radius: 5px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.bar:hover {
+    background: white;
+    transition: 0.6s;
+}
+
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+}
+
+.slide {
+    width: 20%;
+    transition: .6s;
+}
+
+.slide img {
+    width: 100%;
+    height: 60%;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -20%;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -40%;
 }
