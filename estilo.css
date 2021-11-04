@@ -86,7 +86,7 @@ input {
 
 .slide {
     width: 20%;
-    transition: .6s;
+    transition: 1s;
 }
 
 .slide img {
