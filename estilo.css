@@ -1,20 +1,23 @@
 /* HEADER */
 
 .fundo {
-    background: rgb(100, 182, 237);
-    padding-top: 0.5%;
-    padding-bottom: 7.5%;
+    background: darkgray;
+    padding-top: 2%;
 }
 
 .logo {
-    position: absolute;
     padding-top: 5px;
     margin-left: 10%;
     height: 17%;
 }
 
+img {
+    width: 7.5%;
+}
+
 .inicio {
     margin-left: 70%;
+
 }
 
 header li {
@@ -31,8 +34,20 @@ header li {
     font-weight: bolder;
 }
 
-.text:hover {
-    color: yellow;
+#red:hover {
+    color: brown;
+}
+
+#green:hover {
+    color: green;
+}
+
+#yellow:hover {
+    color: darkgoldenrod;
+}
+
+#blue:hover {
+    color: royalblue;
 }
 
 /* MAIN */
@@ -48,14 +63,14 @@ header li {
     position: absolute;
     overflow: hidden;
     border-radius: 3px;
-    top: 60%;
+    top: 70%;
     left: 50%;
-    transform: translate(-50%, -60%);
+    transform: translate(-50%, -62%);
 }
 
 .naveg {
     position: absolute;
-    bottom: 260px;
+    bottom: 180px;
     left: 50%;
     transform: translate(-50%);
     display: flex;
@@ -107,18 +122,16 @@ input {
 }
 
 .titulo {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    top: 640px;
     color: rgb(100, 182, 237);
     font-weight: bold;
-    font-size: 60px;
     font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    padding-top: 25%;
+    padding-bottom: 4%;
+    font-size: 60px;
 }
 
 .intro {
-    position: absolute;
     font-family: 'Work Sans', sans-serif;
     top: 800px;
     left: 100px;
@@ -138,32 +151,30 @@ input {
 .topico1 {
     background: rgb(100, 182, 237);
     padding: 30px;
+    margin-bottom: 2.5%;
 }
 
 .topico2 {
     background: rgb(100, 182, 237);
     padding: 30px;
     margin-top: 10px;
+    margin-bottom: 2.5%;
 }
 
 /*FOOTER*/
 
-.logo2 {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    top: 1500px;
-    background: rgb(100, 182, 237);
-    padding-inline: 47.5%;
-    padding-bottom: 30px;
-    padding-top: 20px;
-    height: 10%;
+footer {
+    background-color: rgb(100, 182, 237);
+    text-align: center;
 }
 
-.copy {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    top: 1610px;
+.logo2 {
+    background: rgb(100, 182, 237);
     font-size: 11px;
+    padding-top: 1.5%;
+}
+
+#copy {
+    padding-top: 0;
+    padding-bottom: 1.5%;
 }
