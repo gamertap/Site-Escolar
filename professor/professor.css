@@ -1,18 +1,23 @@
+/* HEADER */
+
 .fundo {
-    background: brown;
-    padding-top: 0.5%;
-    padding-bottom: 7.5%;
+    background: darkgray;
+    padding-top: 2%;
 }
 
 .logo {
-    position: absolute;
     padding-top: 5px;
-    margin-left: 13.5%;
+    margin-left: 10%;
     height: 17%;
 }
 
+img {
+    width: 7.5%;
+}
+
 .inicio {
-    margin-left: 65%;
+    margin-left: 70%;
+
 }
 
 header li {
@@ -29,6 +34,51 @@ header li {
     font-weight: bolder;
 }
 
-.text:hover {
-    color: yellow;
+#red:hover {
+    color: brown;
+}
+
+#green:hover {
+    color: green;
+}
+
+#yellow:hover {
+    color: darkgoldenrod;
+}
+
+#blue:hover {
+    color: royalblue;
+}
+
+/*MAIN*/
+
+.borda {
+    border: black solid 0px;
+    text-align: center;
+    padding: 2%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 28px;
+    background-color: darkgray;
+}
+
+.login {
+    font-family: 'Work Sans', sans-serif;
+    padding-bottom: 0.5%;
+    font-size: 35px;
+}
+
+.senha {
+    font-family: 'Work Sans', sans-serif;
+    padding-bottom: 0.5%;
+    padding-top: 1%;
+    font-size: 35px;
+}
+
+input {
+    border-radius: 5px;
+    border: 0;
+    padding: 1.5%;
+    padding-right: 5%;
 }
