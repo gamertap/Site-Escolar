@@ -65,15 +65,28 @@ header li {
 
 .login {
     font-family: 'Work Sans', sans-serif;
-    padding-bottom: 0.5%;
+    padding-bottom: 1%;
     font-size: 35px;
 }
 
 .senha {
     font-family: 'Work Sans', sans-serif;
-    padding-bottom: 0.5%;
-    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-top: 1.5%;
     font-size: 35px;
+}
+
+.entrar {
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 4%;
+    padding-left: 5%;
+    font-size: 20px;
+}
+
+.entrar:hover {
+    background-color: rgb(218, 211, 211);
+    transition: .5m;
+    cursor: pointer;
 }
 
 input {
