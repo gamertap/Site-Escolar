@@ -51,3 +51,45 @@ header li {
 }
 
 /*MAIN*/
+
+.borda {
+    border: black solid 0px;
+    text-align: center;
+    padding: 2%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 28px;
+    background-color: darkgray;
+}
+
+.login {
+    font-family: 'Work Sans', sans-serif;
+    padding-bottom: 3%;
+    font-size: 35px;
+}
+
+.rg {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+
+.entrar {
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 4%;
+    padding-left: 5%;
+    font-size: 20px;
+}
+
+.entrar:hover {
+    background-color: rgb(218, 211, 211);
+    transition: .5m;
+    cursor: pointer;
+}
+
+input {
+    border-radius: 5px;
+    border: 0;
+    padding: 1.5%;
+    padding-right: 5%;
+}
