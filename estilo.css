@@ -1,23 +1,20 @@
 /* HEADER */
 
 .fundo {
-    background: darkgray;
-    padding-top: 2%;
+    background-color: darkgray;
+    padding-top: 0.5%;
+    border-bottom: gray solid 2px;
+    padding-bottom: 8%;
 }
 
 .logo {
-    padding-top: 5px;
-    margin-left: 10%;
-    height: 17%;
-}
-
-img {
     width: 7.5%;
+    padding-top: 1%;
+    padding-left: 3%;
 }
 
 .inicio {
     margin-left: 70%;
-
 }
 
 header li {
@@ -28,10 +25,14 @@ header li {
 }
 
 .text {
-    padding-right: 2.5%;
     text-decoration: none;
     color: inherit;
     font-weight: bolder;
+    bottom: 90%;
+}
+
+#blue {
+    border-right: none;
 }
 
 #red:hover {
@@ -70,7 +71,7 @@ header li {
 
 .naveg {
     position: absolute;
-    bottom: 180px;
+    bottom: 40%;
     left: 50%;
     transform: translate(-50%);
     display: flex;
@@ -126,9 +127,9 @@ input {
     font-weight: bold;
     font-family: 'Work Sans', sans-serif;
     text-align: center;
-    padding-top: 25%;
+    padding-top: 26%;
     padding-bottom: 4%;
-    font-size: 60px;
+    font-size: 65px;
 }
 
 .intro {
@@ -166,6 +167,10 @@ input {
 footer {
     background-color: rgb(100, 182, 237);
     text-align: center;
+}
+
+footer img {
+    width: 4.5%;
 }
 
 .logo2 {
