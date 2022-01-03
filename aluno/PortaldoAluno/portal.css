@@ -1,4 +1,5 @@
 /*HEADER*/
+
 header {
     background-color: royalblue;
 }
@@ -27,8 +28,9 @@ header {
 
 .bloco {
     background-color: cornflowerblue;
-    margin-right: 70%;
-    display: block;
+    display: inline-block;
+    padding-right: 1%;
+    padding-left: 1%;
 }
 
 .lista {
@@ -38,12 +40,15 @@ header {
 }
 
 .lista2 {
-    padding-left: 7%;
-    padding-top: 12%;
-    font-size: 25px;
+    padding-top: 30%;
+    font-size: 15px;
 }
 
 .lista2:hover {
     cursor: pointer;
     border-bottom: white solid 2px;
+}
+
+.grade {
+    display: inline-block;
 }
