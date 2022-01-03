@@ -36,7 +36,7 @@ header {
 .lista {
     font-family: 'Work Sans', sans-serif;
     color: white;
-    padding-bottom: 100%;
+    padding-bottom: 139%;
 }
 
 .lista2 {
@@ -46,9 +46,5 @@ header {
 
 .lista2:hover {
     cursor: pointer;
-    border-bottom: white solid 2px;
-}
-
-.grade {
-    display: inline-block;
+    transform: translate(7.5px);
 }
