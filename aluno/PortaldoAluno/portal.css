@@ -22,3 +22,28 @@ header {
     padding-top: 8.5%;
     padding-left: 35%;
 }
+
+/*MAIN*/
+
+.bloco {
+    background-color: cornflowerblue;
+    margin-right: 70%;
+    display: block;
+}
+
+.lista {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    padding-bottom: 100%;
+}
+
+.lista2 {
+    padding-left: 7%;
+    padding-top: 12%;
+    font-size: 25px;
+}
+
+.lista2:hover {
+    cursor: pointer;
+    border-bottom: white solid 2px;
+}
