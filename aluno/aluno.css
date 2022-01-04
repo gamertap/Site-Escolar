@@ -1,23 +1,20 @@
 /* HEADER */
 
 .fundo {
-    background: darkgray;
-    padding-top: 2%;
+    background-color: darkgray;
+    padding-top: 0.5%;
+    border-bottom: gray solid 2px;
+    padding-bottom: 8%;
 }
 
 .logo {
-    padding-top: 5px;
-    margin-left: 10%;
-    height: 17%;
-}
-
-img {
     width: 7.5%;
+    padding-top: 1%;
+    padding-left: 3%;
 }
 
 .inicio {
     margin-left: 70%;
-
 }
 
 header li {
@@ -28,10 +25,14 @@ header li {
 }
 
 .text {
-    padding-right: 2.5%;
     text-decoration: none;
     color: inherit;
     font-weight: bolder;
+    padding-right: 2.3%;
+}
+
+#blue {
+    border-right: none;
 }
 
 #red:hover {
@@ -63,27 +64,28 @@ header li {
     background-color: darkgray;
 }
 
-.login {
+.fonte {
     font-family: 'Work Sans', sans-serif;
-    padding-bottom: 3%;
-    font-size: 35px;
+}
+
+.textaluno {
+    font-size: 32px;
+    margin-bottom: 3%;
 }
 
 .rg {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: bold;
+    font-size: 20px;
 }
 
 .entrar {
-    font-family: 'Work Sans', sans-serif;
-    margin-top: 4%;
+    margin-top: 3%;
     padding-left: 5%;
     font-size: 20px;
 }
 
 .entrar:hover {
     background-color: rgb(218, 211, 211);
-    transition: .5m;
+    transition: .5ms;
     cursor: pointer;
 }
 

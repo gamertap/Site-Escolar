@@ -10,31 +10,40 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="professor.css">
-<title>Site Escolar</title>
+<title>ESCOLA X</title>
 </head>
 <body>
 <header class="fundo">
-    <img class="logo" src="../imagens/logo.png" alt="Logo">
+    <img class="logo" src="../imagens/logo.png" alt="Logo" align="left">
     <nav>
         <div>
             <ul class="inicio">
-                <li><a class="text" href="../SiteEscolar.html">INÍCIO</a></li>
-                <li><a class="text" href="../aluno/aluno.html">ALUNO</a></li>
-                <li><a class="text" href="professor.html">PROFESSOR</a></li>
-                <li><a class="text" href="../secretaria/secretaria.html">SECRETARIA</a></li>
+                <li><a class="text" id="red" href="../SiteEscolar.html">INÍCIO</a></li>
+                <li><a class="text" id="green" href="../aluno/aluno.html">ALUNO</a></li>
+                <li><a class="text" id="yellow" href="professor.html">PROFESSOR</a></li>
+                <li><a class="text" id="blue" href="../secretaria/secretaria.html">SECRETARIA</a></li>
             </ul>
         </div>
     </nav>
 </header>
 <main>
     <div class="borda">
-        <div>
-            <form action="PortaldoProfessor/PortalProfessor.html">
-                <p class="login">Login</p>
-                <input class="caixa1" type="text" placeholder="CPF" required maxlength="11">
-                <p class="senha">Senha</p>
-                <input class="caixa2" type="password" type="" placeholder="********" required>
-                <p><input class="entrar" type="submit" value="Entrar"></p>
+        <div class="fonte">
+            <form action="PortaldoProfessor/PortalProfessor.html" target="_blank">
+
+                <p class="textprof">Portal do Professor</p>
+
+                <div>
+                    <label class="login">Login:</label>
+                    <input class="caixa1" type="text" placeholder="CPF" required maxlength="11">
+                </div>
+
+                <div>
+                    <label class="senha">Senha:</label>
+                    <input class="caixa2" type="password" type="" placeholder="********" required>
+                </div>
+
+                <input class="entrar" type="submit" value="Entrar">
             </form>
         </div>
     </div>
