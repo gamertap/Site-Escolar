@@ -29,13 +29,13 @@
 <main>
     <div class="borda">
         <div class="fonte">
-            <form action="PortaldoProfessor/PortalProfessor.html" target="_blank">
+            <form action="PortaldoProfessor/PortalProfessor.html">
 
                 <p class="textprof">Portal do Professor</p>
 
                 <div>
                     <label class="login">Login:</label>
-                    <input class="caixa1" type="text" placeholder="CPF" required maxlength="11">
+                    <input class="caixa1" type="text" placeholder="CPF" required minlength="11" maxlength="11">
                 </div>
 
                 <div>
@@ -43,7 +43,7 @@
                     <input class="caixa2" type="password" type="" placeholder="********" required>
                 </div>
 
-                <input class="entrar" type="submit" value="Entrar">
+                <input class="entrar" type="submit" value="Entrar" type="reset">
             </form>
         </div>
     </div>
