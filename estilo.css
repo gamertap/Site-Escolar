@@ -1,10 +1,10 @@
 /* HEADER */
 
 .fundo {
-    background-color: darkgray;
+    background-color: royalblue;
     padding-top: 0.5%;
-    border-bottom: gray solid 2px;
-    padding-bottom: 8%;
+    border-bottom: rgb(54, 54, 223) solid 2px;
+    padding-bottom: 4.2%;
 }
 
 .logo {
@@ -15,6 +15,7 @@
 
 .inicio {
     margin-left: 70%;
+    margin-top: 3.8%;
 }
 
 header li {
@@ -29,26 +30,11 @@ header li {
     color: inherit;
     font-weight: bolder;
     padding-right: 2.3%;
+    color: black;
 }
 
-#blue {
-    border-right: none;
-}
-
-#red:hover {
-    color: brown;
-}
-
-#green:hover {
-    color: green;
-}
-
-#yellow:hover {
-    color: darkgoldenrod;
-}
-
-#blue:hover {
-    color: royalblue;
+.text:hover {
+    color: white;
 }
 
 /* MAIN */

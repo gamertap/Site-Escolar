@@ -1,10 +1,10 @@
 /* HEADER */
 
 .fundo {
-    background-color: darkgray;
+    background-color: royalblue;
     padding-top: 0.5%;
-    border-bottom: gray solid 2px;
-    padding-bottom: 8%;
+    border-bottom: rgb(54, 54, 223) solid 2px;
+    padding-bottom: 4.2%;
 }
 
 .logo {
@@ -15,6 +15,7 @@
 
 .inicio {
     margin-left: 70%;
+    margin-top: 3.8%;
 }
 
 header li {
@@ -29,26 +30,11 @@ header li {
     color: inherit;
     font-weight: bolder;
     padding-right: 2.3%;
+    color: black;
 }
 
-#blue {
-    border-right: none;
-}
-
-#red:hover {
-    color: brown;
-}
-
-#green:hover {
-    color: green;
-}
-
-#yellow:hover {
-    color: darkgoldenrod;
-}
-
-#blue:hover {
-    color: royalblue;
+.text:hover {
+    color: white;
 }
 
 /*MAIN*/
@@ -58,8 +44,8 @@ header li {
     text-align: center;
     padding: 2%;
     margin-top: 5%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
     border-radius: 28px;
     background-color: darkgray;
 }
@@ -69,29 +55,39 @@ header li {
 }
 
 .textaluno {
-    font-size: 32px;
+    font-size: 30px;
     margin-bottom: 3%;
+}
+
+.textaluno2 {
+    font-size: 20px;
+    margin-bottom: 4%;
 }
 
 .rg {
     font-size: 20px;
 }
 
+.caixarg {
+    border-radius: 5px;
+    border: 0;
+    padding: 1.5%;
+    padding-right: 3%;
+    margin-right: 4.8%;
+}
+
 .entrar {
     margin-top: 3%;
-    padding-left: 5%;
     font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .entrar:hover {
     background-color: rgb(218, 211, 211);
     transition: .5ms;
     cursor: pointer;
-}
-
-input {
-    border-radius: 5px;
-    border: 0;
-    padding: 1.5%;
-    padding-right: 5%;
 }
