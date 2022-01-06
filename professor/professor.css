@@ -59,6 +59,11 @@ header li {
     padding-bottom: 3%;
 }
 
+.textprof2 {
+    font-size: 20px;
+    margin-bottom: 4%;
+}
+
 .login {
     padding-bottom: 3%;
     font-size: 20px;
@@ -66,6 +71,10 @@ header li {
 
 .caixa1 {
     margin-bottom: 3%;
+    border-radius: 5px;
+    border: 0;
+    padding: 1.5%;
+    margin-right: 10%;
 }
 
 .senha {
@@ -74,23 +83,24 @@ header li {
 
 .caixa2 {
     margin-right: 1.1%;
+    border-radius: 5px;
+    border: 0;
+    padding: 1.5%;
+    margin-right: 11.3%;
 }
 
 .entrar {
     margin-top: 4%;
-    padding-left: 5%;
     font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    padding: 1.5%;
+    padding-right: 4%;
+    padding-left: 4%;
 }
 
 .entrar:hover {
     background-color: rgb(218, 211, 211);
     transition: .5ms;
     cursor: pointer;
-}
-
-input {
-    border-radius: 5px;
-    border: 0;
-    padding: 1.5%;
-    padding-right: 5%;
 }
