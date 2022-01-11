@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="estilo.css">
 <link rel="stylesheet" href="../reset.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,38 +13,41 @@
 </head>
 <body>
 <header class="fundo">
-    <img class="logo" src="../imagens/logo.png" alt="Logo" align="left">
+
+    <div><img class="logo" src="../imagens/logo.png" alt="Logo" align="left"></div>
+
     <nav>
         <div>
             <ul class="inicio">
                 <li><a class="text" href="../SiteEscolar.html">INÍCIO</a></li>
+
                 <li><a class="text" href="aluno.html">ALUNO</a></li>
+
                 <li><a class="text" href="../professor/professor.html">PROFESSOR</a></li>
+
                 <li><a class="text" href="../secretaria/secretaria.html" target="_blank">SECRETARIA</a></li>
             </ul>
         </div>
     </nav>
 </header>
-<main>
+<main class="background">
     <div class="borda">
         <div class="fonte">
             <form action="PortaldoAluno/portal.html">
 
                 <div>
-                    <p class="textaluno">Consulte seu boletim, grande horária e mais</p>
+                    <p class="textaluno">Consulte seu boletim e grade horária</p>
+
                     <p class="textaluno2">Acesse aqui</p>
                 </div>
                 
-                <div>
+                <div class="center">
                     <label class="rg">RG:</label>
-                    <input class="caixarg" type="text" placeholder="xx.xxx.xxx-x" required minlength="9" maxlength="9">
-                </div>
-                <div>
-                    <Label class="data">Data de nascimento:</Label>
-                    <input class="caixadata" type="date" required>
+
+                    <input class="caixarg" type="text" placeholder="xx.xxx.xxx-x" required minlength="9" maxlength="9" size="9">
                 </div>
 
-                <input class="entrar" type="submit" value="Entrar">
+                <div class="center"><input class="entrar" type="submit" value="Entrar"></div>
             </form>
         </div>
     </div>

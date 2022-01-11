@@ -29,8 +29,8 @@ header li {
     text-decoration: none;
     color: inherit;
     font-weight: bolder;
-    padding-right: 2.3%;
     color: black;
+    margin-right: 2%;
 }
 
 .text:hover {
@@ -40,12 +40,13 @@ header li {
 /*MAIN*/
 
 .borda {
+    display: flex;
+    justify-content: center;
     border: black solid 0px;
-    text-align: center;
     padding: 2%;
     margin-top: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
     border-radius: 28px;
     background-color: darkgray;
 }
@@ -55,43 +56,38 @@ header li {
 }
 
 .textaluno {
-    font-size: 30px;
+    text-align: center;
+    font-size: 38px;
     margin-bottom: 3%;
 }
 
 .textaluno2 {
+    text-align: center;
     font-size: 20px;
     margin-bottom: 4%;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .rg {
     font-size: 20px;
+    padding-right: 1%;
 }
 
 .caixarg {
     border-radius: 5px;
     border: 0;
-    padding: 1.3%;
-    margin-right: 5%;
-}
-
-.data {
-    font-size: 20px;
-}
-
-.caixadata {
+    padding: 1.5%;
     font-size: 15px;
-    border-radius: 5px;
-    border: 0;
-    padding: 1.3%;
-    padding-left: 2.3%;
-    padding-right: 2.4%;
-    margin-right: 27.8%;
-    margin-top: 2%;
+    margin-right: 6%;
 }
 
 .entrar {
-    margin-top: 3%;
+    margin-top: 4.5%;
     font-size: 20px;
     border-radius: 5px;
     border: 0;
@@ -104,4 +100,226 @@ header li {
     background-color: rgb(218, 211, 211);
     transition: .5ms;
     cursor: pointer;
+}
+
+/*HEADER*/
+
+@media only screen and (min-width: 1050px) and (max-width: 1224px){
+    .inicio {
+        margin-left: 65%;
+    }
+}
+
+@media only screen and (min-width: 807px) and (max-width: 1049px){
+    .inicio {
+        margin-left: 54%;
+    }
+}
+
+@media only screen and (min-width: 748px) and (max-width: 806px){
+    .inicio {
+        margin-left: 50%;
+    }
+
+    .logo {
+        width: 9%;
+    }
+}
+
+@media only screen and (min-width: 514px) and (max-width: 747px){
+    .inicio {
+        margin-left: 40%;
+    }
+
+    .text {
+        font-size: 15px;
+
+    }
+
+    .logo {
+        width: 9%;
+    }
+}
+
+@media only screen and (min-width: 441px) and (max-width: 513px){
+    .inicio {
+        margin-left: 30%;
+    }
+
+    .text {
+        font-size: 15px;
+
+    }
+
+    .logo {
+        width: 9%;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 440px){
+    .inicio {
+        margin-left: 22%;
+    }
+
+    .text {
+        font-size: 15px;
+
+    }
+
+    .logo {
+        width: 11%;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 399px){
+    .inicio {
+        margin-left: 25%;
+    }
+
+    .text {
+        font-size: 13px;
+    }
+
+    .logo {
+        width: 11.5%;
+    }
+}
+
+/*MAIN*/
+
+@media only screen and (min-width: 1223px) and (max-width: 1538px){
+    .textaluno {
+        font-size: 31px;
+    }
+    
+    .caixarg {
+        margin-right: 7%;
+    }
+}
+
+@media only screen and (min-width: 967px) and (max-width: 1222px){
+    .borda {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .textaluno {
+        font-size: 30px;
+    }
+
+    .caixarg {
+        margin-right: 7.2%;
+    }
+}
+
+@media only screen and (min-width: 843px) and (max-width: 966px){
+    .borda {
+        margin-top: 7%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .textaluno {
+        font-size: 30px;
+    }
+    
+    .caixarg {
+        margin-right: 7.2%;
+    }
+}
+
+@media only screen and (min-width: 543px) and (max-width: 842px){
+    .borda {
+        margin-top: 12%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .textaluno {
+        font-size: 27px;
+    }
+
+    .textaluno2 {
+        font-size: 19px;
+    }
+
+    .caixarg {
+        margin-right: 7.7%;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 542px){
+    .borda {
+        margin-top: 30%;
+        margin-left: 0;
+        margin-right: 0;
+        background: none;
+    }
+
+    .textaluno {
+        font-size: 30px;
+        padding-bottom: 3%;
+    }
+
+    .textaluno2 {
+        font-size: 20px;
+        padding-bottom: 5%;
+    }
+
+    .rg {
+        font-size: 25px;
+    }
+
+    .caixarg {
+        font-size: 20px;
+        padding-right: 0;
+        padding: 5%;
+        border-radius: 12px;
+        border: black solid 2px;
+        margin-right: 10.6%;
+    }
+
+    .entrar {
+        padding: 3% 5%;
+        margin-top: 6%;
+        background: rgb(160, 160, 160);
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 399px){
+    .borda {
+        margin-top: 30%;
+        margin-left: 0;
+        margin-right: 0;
+        background: none;
+    }
+
+    .textaluno {
+        font-size: 30px;
+        padding-bottom: 3%;
+    }
+
+    .textaluno2 {
+        font-size: 20px;
+        padding-bottom: 5%;
+    }
+
+    .rg {
+        font-size: 25px;
+    }
+
+    .caixarg {
+        font-size: 20px;
+        padding-right: 0;
+        padding: 5%;
+        border-radius: 12px;
+        border: black solid 2px;
+        margin-right: 12%;
+    }
+
+    .entrar {
+        padding: 3% 5%;
+        margin-top: 6%;
+        background: rgb(160, 160, 160);
+    }
 }
