@@ -40,12 +40,12 @@ header li {
 /*MAIN*/
 
 .borda {
-    border: black solid 0px;
+    border: 0px;
     text-align: center;
     padding: 2%;
     margin-top: 5%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
     border-radius: 28px;
     background-color: darkgray;
 }
@@ -82,7 +82,6 @@ header li {
 }
 
 .caixa2 {
-    margin-right: 1.1%;
     border-radius: 5px;
     border: 0;
     padding: 1.5%;
@@ -104,8 +103,6 @@ header li {
     transition: .5ms;
     cursor: pointer;
 }
-
-/* HEADER */
 
 /*HEADER*/
 
@@ -187,5 +184,145 @@ header li {
 
     .logo {
         width: 11.5%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px){
+    .inicio {
+        margin-left: 22%;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .logo {
+        width: 11.5%;
+    }
+}
+
+/*MAIN*/
+
+@media only screen and (min-width: 801px) and (max-width: 1250px){
+    .borda {
+        margin-right: 13%;
+        margin-left: 13%;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (min-width: 642px) and (max-width: 800px){
+    .borda {
+        margin-right: 13%;
+        margin-left: 13%;
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (min-width: 441px) and (max-width: 641px){
+    .borda {
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 30%;
+    }
+
+    .login {
+        margin-left: 1%;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 440px){
+    .borda {
+        margin: 0;
+        border-radius: 0;
+        background-color: white;
+    }
+
+    .textprof {
+        margin-top: 12%;
+        font-size: 37px;
+    }
+
+    .textprof2 {
+        margin-top: 8%;
+        font-size: 24px;
+    }
+
+    .login {
+        font-size: 30px;
+    }
+
+    .caixa1 {
+        margin-top: 15%;
+        margin-left: 1%;
+        padding: 3%;
+        border: black solid 2px;
+    }
+
+    .senha {
+        font-size: 30px;
+    }
+
+    .caixa2 {
+        margin-top: 5%;
+        padding: 3%;
+        border: black solid 2px;
+    }
+
+    .entrar {
+        margin-top: 15%;
+        font-size: 25px;
+        padding: 2.5%;
+        padding-left: 6%;
+        padding-right: 6%;
+        background: rgb(187, 187, 187);
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px){
+    .borda {
+        margin: 0;
+        border-radius: 0;
+        background-color: white;
+    }
+
+    .textprof {
+        margin-top: 12%;
+        font-size: 32px;
+    }
+
+    .textprof2 {
+        margin-top: 8%;
+        font-size: 24px;
+    }
+
+    .login {
+        font-size: 21px;
+    }
+
+    .caixa1 {
+        margin-top: 15%;
+        margin-left: 1%;
+        padding: 3%;
+        border: black solid 2px;
+    }
+
+    .senha {
+        font-size: 21px;
+    }
+
+    .caixa2 {
+        margin-top: 5%;
+        padding: 3%;
+        border: black solid 2px;
+    }
+
+    .entrar {
+        margin-top: 15%;
+        font-size: 25px;
+        padding: 2.5%;
+        padding-left: 6%;
+        padding-right: 6%;
+        background: rgb(187, 187, 187);
     }
 }
