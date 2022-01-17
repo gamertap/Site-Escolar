@@ -74,7 +74,6 @@ header li {
     border-radius: 5px;
     border: 0;
     padding: 1.5%;
-    margin-right: 10%;
 }
 
 .senha {
@@ -85,7 +84,7 @@ header li {
     border-radius: 5px;
     border: 0;
     padding: 1.5%;
-    margin-right: 11.3%;
+    margin-right: 0.6%;
 }
 
 .entrar {
@@ -249,10 +248,11 @@ header li {
     }
 
     .login {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .caixa1 {
+        font-size: 18px;
         margin-top: 15%;
         margin-left: 1%;
         padding: 3%;
@@ -260,10 +260,11 @@ header li {
     }
 
     .senha {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .caixa2 {
+        font-size: 18px;
         margin-top: 5%;
         padding: 3%;
         border: black solid 2px;

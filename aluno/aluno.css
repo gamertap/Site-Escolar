@@ -294,8 +294,11 @@ header li {
     }
 
     .entrar {
-        padding: 3% 5%;
-        margin-top: 6%;
+        margin-top: 13%;
+        font-size: 25px;
+        padding: 2.5%;
+        padding-left: 6%;
+        padding-right: 6%;
         background: rgb(187, 187, 187);
     }
 }
@@ -373,5 +376,17 @@ header li {
         padding: 3% 5%;
         margin-top: 13%;
         background: rgb(187, 187, 187);
+    }
+}
+
+/*MAIN-CAMPOdoRG*/
+
+@media only screen and (min-width: 542px){
+    .rg {
+        font-size: 25px;
+    }
+    
+    .caixarg {
+        font-size: 20px;
     }
 }

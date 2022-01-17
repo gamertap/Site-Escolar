@@ -29,7 +29,7 @@ header li {
     text-decoration: none;
     color: inherit;
     font-weight: bolder;
-    padding-right: 2.3%;
+    padding-right: 2%;
     color: black;
 }
 
@@ -39,83 +39,14 @@ header li {
 
 /* MAIN */
 
-.imgmain {
-    position: absolute;
-    margin-left: 28.5%;
-    margin-top: 1%;
-    transform: scale(1.3, 1);
-}
-
-.content {
-    position: absolute;
-    overflow: hidden;
-    border-radius: 3px;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -62%);
-}
-
-.naveg {
-    position: absolute;
-    bottom: 40%;
-    left: 50%;
-    transform: translate(-50%);
-    display: flex;
-}
-
-.bar {
-    width: 70px;
-    height: 17px;
-    border: 2px white solid;
-    border-radius: 5px;
-    margin: 6px;
-    cursor: pointer;
-}
-
-.bar:hover {
-    background: white;
-    transition: 0.6s;
-}
-
-input {
-    display: none;
-}
-
-.slides {
-    display: flex;
-    width: 500%;
-}
-
-.slide {
-    width: 20%;
-    transition: 1s;
-}
-
-.slide img {
-    width: 100%;
-    height: 60%;
-}
-
-#slide1:checked ~ .s1 {
-    margin-left: 0;
-}
-
-#slide2:checked ~ .s1 {
-    margin-left: -20%;
-}
-
-#slide3:checked ~ .s1 {
-    margin-left: -40%;
-}
-
 .titulo {
-    color: rgb(100, 182, 237);
+    color: royalblue;
     font-weight: bold;
     font-family: 'Work Sans', sans-serif;
     text-align: center;
-    padding-top: 26%;
-    padding-bottom: 4%;
-    font-size: 65px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 75px;
 }
 
 .intro {
@@ -136,22 +67,20 @@ input {
 }
 
 .topico1 {
-    background: rgb(100, 182, 237);
     padding: 30px;
-    margin-bottom: 2.5%;
+    border-bottom: rgb(54, 54, 223) solid 2px;
+    border-top: rgb(54, 54, 223) solid 2px;
 }
 
 .topico2 {
-    background: rgb(100, 182, 237);
     padding: 30px;
-    margin-top: 10px;
-    margin-bottom: 2.5%;
+    border-bottom: rgb(54, 54, 223) solid 2px;
 }
 
 /*FOOTER*/
 
 footer {
-    background-color: rgb(100, 182, 237);
+    background: royalblue;
     text-align: center;
 }
 
@@ -160,7 +89,7 @@ footer img {
 }
 
 .logo2 {
-    background: rgb(100, 182, 237);
+    background: royalblue;
     font-size: 11px;
     padding-top: 1.5%;
 }
@@ -170,3 +99,156 @@ footer img {
     padding-bottom: 1.5%;
 }
 
+/*HEADER*/
+
+@media only screen and (min-width: 1050px) and (max-width: 1224px){
+    .inicio {
+        margin-left: 65%;
+    }
+}
+
+@media only screen and (min-width: 807px) and (max-width: 1049px){
+    .inicio {
+        margin-left: 54%;
+    }
+}
+
+@media only screen and (min-width: 748px) and (max-width: 806px){
+    .inicio {
+        margin-left: 50%;
+    }
+
+    .logo {
+        width: 9%;
+    }
+}
+
+@media only screen and (min-width: 514px) and (max-width: 747px){
+    .inicio {
+        margin-left: 39%;
+    }
+
+    .text {
+        font-size: 15px;
+
+    }
+
+    .logo {
+        width: 9%;
+    }
+}
+
+@media only screen and (min-width: 441px) and (max-width: 513px){
+    .inicio {
+        margin-left: 29%;
+    }
+
+    .text {
+        font-size: 15px;
+
+    }
+
+    .logo {
+        width: 11%;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 440px){
+    .inicio {
+        margin-left: 22%;
+    }
+
+    .text {
+        font-size: 15px;
+
+    }
+
+    .logo {
+        width: 11%;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 399px){
+    .inicio {
+        margin-left: 23%;
+    }
+
+    .text {
+        font-size: 13px;
+    }
+
+    .logo {
+        width: 11.5%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px){
+    .inicio {
+        margin-left: 21%;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .logo {
+        width: 11.5%;
+    }
+}
+
+/*MAIN*/
+
+@media only screen and (min-width: 724px) and (max-width: 791px){
+    .titulo {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 460px){
+    .titulo {
+        font-size: 50px;
+    }
+}
+
+/*FOOTER*/
+
+@media only screen and (min-width: 1000px) and (max-width: 1300px){
+    footer img {
+        width: 6%;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 999px){
+    footer img {
+        width: 6%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 799px){
+    footer img {
+        width: 8%;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px){
+    footer img {
+        width: 8%;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 499px){
+    footer img {
+        width: 10%;
+    }
+
+    .copy {
+        padding-top: 2.2%;
+        padding-bottom: 2.2%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 399px){
+    footer img {
+        width: 10%;
+    }
+}
